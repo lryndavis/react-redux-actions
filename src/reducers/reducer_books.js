@@ -4,5 +4,5 @@ export default function() {
     { title: 'test' },
     { title: 'testbook' },
     { title: 'testbook3' }
-  ]
+  ];
 }

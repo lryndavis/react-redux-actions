@@ -14,7 +14,7 @@ class BookList extends Component {
 
   render(){
     return (
-      <ul classname="list-group col-sm-4">
+      <ul className="list-group col-sm-4">
         {this.renderList()}
       </ul>
     )
@@ -24,6 +24,7 @@ class BookList extends Component {
 //take the app's state as an argument
 //whatever is returned will show up as props inside of book list
 //whatever object returned will be available to the component as this.props
+//if state changes this container will automatically re render
 function mapStateToProps(state) {
   return {
     books: state.books
